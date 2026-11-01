@@ -2,6 +2,9 @@
 
 Module: CT4101 Machine Learning, University of Galway.
 
+## Predicting Term Deposit Uptake in Bank Telemarketing
+## Using only information available before a call is made, will a contacted client subscribe to a term deposit (yes/no)?
+
 ## Dataset
 
 UCI Bank Marketing (bank-additional-full.csv, 41,188 records, 20 input features, binary target y).
