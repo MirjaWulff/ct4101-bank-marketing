@@ -13,7 +13,7 @@ Licence: CC BY 4.0. Source, citation and variable descriptions: see data/README.
 
 ## Folder structure
 
-- notebooks/ - numbered notebooks, run in order (01_..., 02_...)
+- notebooks/ - numbered notebooks, run in order (01_..., 02_..., 03_...)
 - src/ - reusable Python functions
 - data/raw/ - original dataset, unmodified
 - data/README.md - dataset source, licence and citation
@@ -36,6 +36,7 @@ Open the notebooks in VS Code (or Jupyter), select the .venv kernel, and run eac
 
 - notebooks/01_data_audit.ipynb - data audit: shape, variable types, missing values, duplicates, target distribution, outliers.
 - notebooks/02_baseline.ipynb - cleaning, train/test split and cross-validation design, preprocessing pipeline, baseline results.
+- notebooks/03_model_comparison.ipynb - kNN and gradient boosting tuned with GridSearchCV compared with the baseline on the same folds, results table, confusion matrices, error analysis, draft conclusion. figures are saved to reports/figures/.
 
 ## Evaluation design
 
